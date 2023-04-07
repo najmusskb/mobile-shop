@@ -1,0 +1,25 @@
+.Tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  align-items: center;
+  margin-left: 250px;
+}
+.tabsList {
+  display: flex;
+  align-items: center;
+}
+.tabHead {
+  padding: 1.5rem;
+  border: ipx solid white;
+}
+.tabHead:hover {
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.active {
+  background-color: white;
+  color: black;
+}
