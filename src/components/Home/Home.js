@@ -4,12 +4,12 @@ import img1 from "./.././../image/levanten-mobilephones-hero-3-d..png";
 import img2 from "./.././../image/levanten-mobilephones-hero-5-d.ong.webp";
 import img3 from "./.././../image/levanten-mobilephones-hero-4-d.png";
 import img4 from "./.././../image/levanten-mobilephones-hero-2-d.png";
-
-import img5 from "./.././../image/img01.png";
-import img6 from "./.././../image/img2.png";
-import img7 from "./.././../image/img-03.jpg";
-import img8 from "./.././../image/img-04.png";
 import Tab from "../Tab/Tab";
+import Tab2 from "../Tab2/Tab2";
+
+import Sectionfour from "../Sectionfour/Sectionfour";
+import SectionFive from "../SectionFive/SectionFive";
+import Six from "../Six/Six";
 
 const Home = () => {
   return (
@@ -63,10 +63,16 @@ const Home = () => {
       </div>
 
       {/* section 02 */}
-
-      <h1 className="  text-5xl text-white"> Mobile </h1>
-
+      <h1 className="mt-10 text-center text-5xl text-white"> Mobile Items </h1>
       <Tab></Tab>
+
+      {/* section 03 */}
+      <Tab2></Tab2>
+      <Sectionfour></Sectionfour>
+      <Six></Six>
+      <SectionFive></SectionFive>
+
+      {/* <SectionThree></SectionThree> */}
     </div>
   );
 };
