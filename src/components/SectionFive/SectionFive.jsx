@@ -75,16 +75,19 @@ const SectionFive = () => {
           className="btn"
         />
       </div>
-      <h5 className="pharagraph text-center">
-        Key Features: <br />
-        1. Drag and drop feature to customize without writing a code. <br />
-        2.Can get access to icons and items that are specific to a platform or
-        operating <br />
-        3. Has a massive library of other assets and widgets you might need to
-        design. <br />
-        4.Allows to connect widgeted pages and preview them in real-time. <br />
-        5.Offers real-time collaboration with teammates and clients.
-      </h5>
+      <Bounce>
+        <h5 className="pharagraph text-center">
+          Key Features: <br />
+          1. Drag and drop feature to customize without writing a code. <br />
+          2.Can get access to icons and items that are specific to a platform or
+          operating <br />
+          3. Has a massive library of other assets and widgets you might need to
+          design. <br />
+          4.Allows to connect widgeted pages and preview them in real-time.{" "}
+          <br />
+          5.Offers real-time collaboration with teammates and clients.
+        </h5>
+      </Bounce>
     </div>
   );
 };

@@ -1,0 +1,25 @@
+.navbar-back {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(14, 9, 10, 1) 72%
+  );
+  padding: 20px;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+  font-size: 20px;
+}
+
+.getstarted {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(14, 9, 10, 1) 72%
+  );
+}
+.mobile {
+  font-size: 50px;
+  text-shadow: 2px 2px 10px blue;
+}

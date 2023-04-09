@@ -80,10 +80,13 @@ const Product = () => {
               <Fade left>
                 <div className="box">
                   <div className="content">
-                    <h5>{value.name}</h5>
-                    <p>{value.price}</p>
-                    <img src={value.img} alt="" />
-                    <button>Buy Now</button>
+                    <img className="imageee" src={value.img} alt="" />
+
+                    <div className="p-1">
+                      <h4 className="text-2xl text-white">{value.name}</h4>
+                      <h4 className="text-1xl text-warning">$ {value.price}</h4>
+                      <button className="buynow">Buy Now</button>
+                    </div>
                   </div>
                 </div>
               </Fade>
