@@ -1,12 +1,15 @@
 import React from "react";
 import "./Style.css";
-import Six from "../Six/Six";
+import Bounce from "react-reveal/Bounce";
 const SectionFive = () => {
   return (
     <div className="">
-      <h1 className="text-center text-5xl text-white  mt-10">
-        Looking for something else?
-      </h1>
+      <Bounce right>
+        <h1 className="text-center text-5xl text-white  mt-10">
+          Looking for something else?
+        </h1>
+      </Bounce>
+
       <div className="form-control items-center">
         <div className="input-group ">
           <input
@@ -72,6 +75,16 @@ const SectionFive = () => {
           className="btn"
         />
       </div>
+      <h5 className="pharagraph text-center">
+        Key Features: <br />
+        1. Drag and drop feature to customize without writing a code. <br />
+        2.Can get access to icons and items that are specific to a platform or
+        operating <br />
+        3. Has a massive library of other assets and widgets you might need to
+        design. <br />
+        4.Allows to connect widgeted pages and preview them in real-time. <br />
+        5.Offers real-time collaboration with teammates and clients.
+      </h5>
     </div>
   );
 };

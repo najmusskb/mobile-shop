@@ -1,27 +1,38 @@
 import React from "react";
-
-import pic1 from "../../image/four.jpg";
-
+import Reveal from "react-reveal/Reveal";
+import pic1 from "../../image/themepic.png";
+import "./Sectionfour.css";
+import RubberBand from "react-reveal/RubberBand";
 const Sectionfour = () => {
   return (
     <div>
-      <h1 className="text-5xl text-center mt-10 mb-5 text-white">
-        Explore #DoWhatYouCant
-      </h1>
+      <RubberBand>
+        <h1 className="text-5xl text-center mt-10 mb-5 text-white">
+          Others Repairs
+        </h1>
+      </RubberBand>
 
-      <div className="hero min-h-screen bg-base-200">
+      <div className="hero hero-n min-h-screen ">
         <div className="hero-content flex-col lg:flex-row">
-          <img src={pic1} alt="/" className="w-120  rounded-lg shadow-2xl" />
-          <div>
-            <h1 className="text-5xl font-bold">
-              More Space to Keep Food Fresh
-            </h1>
-            <p className="py-6">
-              All the room you need to cover wholesome meals for your family and
-              friends
-            </p>
-            <button className="btn btn-primary">Get Started</button>
-          </div>
+          <Reveal left>
+            <img
+              src={pic1}
+              alt="/"
+              className="widthpic  rounded-lg shadow-2xl"
+            />
+          </Reveal>
+          <Reveal right>
+            <div className="others-repairs">
+              <h1 className="text-5xl font-bold">Google Pixel</h1>
+              <p className="py-5">
+                1. Google Pixel 7 <br /> 2. Pro Google <br /> 3. Pixel 7 <br />
+                4. Google Pixel 6 Pro <br />
+                5. Google Pixel <br />
+                6. Google Pixel 5
+              </p>
+              <button className="btn ">See More</button>
+            </div>
+          </Reveal>
         </div>
       </div>
     </div>

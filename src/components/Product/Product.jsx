@@ -1,4 +1,6 @@
 import "./Style.css";
+import RubberBand from "react-reveal/RubberBand";
+import Fade from "react-reveal/Fade";
 const Product = () => {
   const fakedata = [
     {
@@ -65,18 +67,26 @@ const Product = () => {
 
   return (
     <div>
-      <h1 className="text-5xl text-center mt-5 p-5">Mobile Products bellow </h1>
+      <RubberBand>
+        <h1 className="text-5xl text-center mt-5 p-5">
+          Mobile Products bellow
+        </h1>
+      </RubberBand>
+
       <div className="containerr">
         {fakedata.map((value) => {
           return (
             <>
-              <div className="box">
-                <div className="content">
-                  <h5>{value.name}</h5>
-                  <p>{value.price}</p>
-                  <img src={value.img} alt="" />
+              <Fade left>
+                <div className="box">
+                  <div className="content">
+                    <h5>{value.name}</h5>
+                    <p>{value.price}</p>
+                    <img src={value.img} alt="" />
+                    <button>Buy Now</button>
+                  </div>
                 </div>
-              </div>
+              </Fade>
             </>
           );
         })}
