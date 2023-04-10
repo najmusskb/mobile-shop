@@ -1,12 +1,14 @@
 import React from "react";
+import "./Container.css";
+import Bounce from "react-reveal/Bounce";
 
 const Contact = () => {
   return (
     <div>
-      <div class="flex justify-center  w-screen h-screen mx-5">
-        <div class="container mx-auto my-4 px-4 lg:px-20">
-          <div class="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
-            <div class="flex">
+      <div class="flex justify-center conatcttt    w-screen h-screen ">
+        <div class="container  my-4 px-4 lg:px-20 ">
+          <div class="w-full shadow mx-20 p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
+            <div class="flex mx-20">
               <h1 class="font-bold uppercase text-5xl text-white text-center  mb-5">
                 Send us a message
               </h1>
@@ -50,16 +52,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
-
       <div class="flex items-end justify-end fixed bottom-0 right-0 mb-4 mr-4 z-10">
-        <div>
-          <a
-            title="Buy me a pizza"
-            href="https://www.buymeacoffee.com/Dekartmc"
-            target="_blank"
-            class="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12"
-          ></a>
-        </div>
+        <div></div>
       </div>
     </div>
   );

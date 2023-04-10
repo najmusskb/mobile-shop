@@ -15,6 +15,7 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: -70px;
 }
 .box {
   background-color: black;
@@ -38,7 +39,6 @@ h1 {
   background-color: #69b512;
   padding: 9px;
 }
-
 .imageee {
   height: 400px;
   width: 100%;

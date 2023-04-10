@@ -32,7 +32,16 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn getstarted text-white">Get started</a>
+          <Link
+            to={"/contact"}
+            title=""
+            target="_blank"
+            class="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12"
+          >
+            <span className="p-5 text-5xl text-primary ">
+              <span class="material-symbols-outlined icons">phone_iphone</span>
+            </span>
+          </Link>
         </div>
       </div>
     </div>
