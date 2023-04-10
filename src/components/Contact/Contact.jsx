@@ -1,12 +1,11 @@
 import React from "react";
 import "./Container.css";
-import Bounce from "react-reveal/Bounce";
 
 const Contact = () => {
   return (
     <div>
       <div class="flex justify-center conatcttt    w-screen h-screen ">
-        <div class="container  my-4 px-4 lg:px-20 ">
+        <div class="container  my-4 px-4 lg:px-20  ">
           <div class="w-full shadow mx-20 p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
             <div class="flex mx-20">
               <h1 class="font-bold uppercase text-5xl text-white text-center  mb-5">

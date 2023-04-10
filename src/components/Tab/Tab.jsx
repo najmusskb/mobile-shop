@@ -50,7 +50,7 @@ const Tab = () => {
             setIndex(3);
           }}
         >
-          <span className="text-white">Galaxy Z Flip4</span>
+          <span className="text-white">Samsung</span>
         </button>
         <button
           className={`text-white tabHead btn btn-outline btn-accent ${
@@ -60,7 +60,7 @@ const Tab = () => {
             setIndex(4);
           }}
         >
-          <span className="text-white"> Galaxy Watch5</span>
+          <span className="text-white"> I Phone</span>
         </button>
       </div>
 
@@ -75,31 +75,36 @@ const Tab = () => {
         </div>
         <div className="tabsContent text-white text-center" hidden={index != 1}>
           <h1 className="text-3xl font-bold mt-3">Galaxy Unpacked Highlight</h1>
-          <p className="mt-2"> The connected power of Samsung Galaxy.</p>
+          <p className="mt-2">
+            Internet Explorer 11 and older do not support live stream playback.
+          </p>
           <img src={img2} alt="" />
         </div>
         <div
           className="tabsContent  text-center text-white"
           hidden={index != 2}
         >
-          <h1 className="text-3xl font-bold mt-3">Galaxy Unpacked Highlight</h1>
-          <p className="mt-2"> The connected power of Samsung Galaxy.</p>
+          <h1 className="text-3xl font-bold mt-3">Samsung </h1>
+          <p className="mt-2">
+            Ready to break the rules of what's possible? The epic standard of
+            smartphones is coming your way.
+          </p>
           <img src={img06} alt="" />
         </div>
         <div
           className="tabsContent  text-center text-white"
           hidden={index != 3}
         >
-          <h1 className="text-3xl font-bold mt-3">Galaxy Unpacked Highlight</h1>
-          <p className="mt-2"> The connected power of Samsung Galaxy.</p>
+          <h1 className="text-3xl font-bold mt-3">I Phone</h1>
+          <p className="mt-2"> The connected power of I Phone</p>
           <img src={img77} alt="" />
         </div>
         <div
           className="tabsContent  text-center text-white"
           hidden={index != 4}
         >
-          <h1 className="text-3xl font-bold mt-3">Galaxy Unpacked Highlight</h1>
-          <p className="mt-2"> The connected power of Samsung Galaxy.</p>
+          <h1 className="text-3xl font-bold mt-3">Vivo</h1>
+          <p className="mt-2"> Vivo latest Model</p>
           <img src={img88} alt="" />
         </div>
       </Zoom>
